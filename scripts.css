@@ -8,35 +8,28 @@ body {
   display: grid;
   width: 100%;
   margin: auto;
-  grid-template-columns: 35vw 35vw;
-  grid-template-rows: 45vh 45vh;
-  grid-gap: 15px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 600px;
   grid-template-areas: 
-  "top top"
-  "bottomLeft bottomRight";
-  border: 2px solid rgb(247, 186, 96);
-  justify-content: center;
-
- 
+  "hd hd hd hd   hd   hd   hd   hd"
+  "sd main main main main main main main"
+  "ft ft ft ft   ft   ft   ft   ft";
+  border: 2px solid yellow;
 }
 .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid red;
-  
+  background: #F8FA9D;
 }
-
-#one {
-  grid-area: top;
-
+.header {
+  grid-area: hd;
 }
-#two {
-  grid-area: bottomLeft;
-
+.sidebar {
+  grid-area: sd;
 }
-#three {
-  grid-area: bottomRight;
-
+.content {
+  grid-area: main;
+}
+.footer {
+  grid-area: ft;
 }
 
