@@ -63,5 +63,16 @@ body{
 .footer {
   grid-area: footer;
 }
+#nestedGrid {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  border:3px solid white;
+}
+.photoBox {
+  width: 1fr;
+  height: 150px;
+  border: 1px solid red;
+  background: #F9FA4D
+}
 
 
