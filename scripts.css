@@ -82,8 +82,7 @@ body{
   border: 2px solid #ffcc5c;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* flex-direction: column; */
+ 
 }
 /* #navGrid > div {
   flex: 1;
