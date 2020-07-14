@@ -68,3 +68,10 @@ body {
   color: white;
   padding: 10px;
 }
+.middle-container > div {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  
+}
+
