@@ -15,8 +15,8 @@ body{
   grid-template-columns: 6em minmax(1000px, 1300px) minmax(800px, 1200px) 1em;
   /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
 
-  /* column-gap: 3px;
-  row-gap: 3px; */
+  column-gap: 1px;
+  row-gap: 1px;
   /* grid-gap: 20px; */
   grid-template-rows: 50px 700px 50px;
   /* grid-auto-rows: 300px; */
@@ -46,15 +46,31 @@ body{
 }
 .item {
   background: #58d5f6;
-  color: white;
+  color: black;
   padding: 10px;
+  justify-content: center;
 }
+.nestedGridContent {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  border: 3px solid white;
+}
+
+
 .item:nth-child(even) {
   background: solid red;
 }
+
 .header {
   grid-area: header;
+
 }
+.pageTitle {
+  display: flex;
+  justify-content: center;
+}
+
 .content {
   grid-area: main;
 }
