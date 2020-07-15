@@ -15,8 +15,8 @@ body{
   grid-template-columns: 6em minmax(1000px, 1300px) minmax(800px, 1200px) 1em;
   /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
 
-  column-gap: 3px;
-  row-gap: 3px;
+  /* column-gap: 3px;
+  row-gap: 3px; */
   /* grid-gap: 20px; */
   grid-template-rows: 50px 700px 50px;
   /* grid-auto-rows: 300px; */
@@ -76,7 +76,7 @@ body{
   width: 1fr;
   height: 300px;
   border: 1px solid red;
-  background: #F9FA4D
+  background:white;
 }
 #navGrid {
   border: 2px solid #ffcc5c;
@@ -84,6 +84,18 @@ body{
   flex-direction: column;
  
 }
+.middle-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  color: black;
+  
+  background: white;
+}
+/* .profile {
+  color: black;
+} */
 /* #navGrid > div {
   flex: 1;
 } */
