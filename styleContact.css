@@ -22,7 +22,7 @@ body{
   /* grid-auto-rows: 300px; */
   grid-template-areas:
       "header header header header"
-      "nav    main   side   ......"
+      "nav    main   main   side"
       "footer footer footer footer";
 }
 @media only screen and (min-width: 860px) {
@@ -30,7 +30,7 @@ body{
     grid-template-columns: 6em minmax(800px, 1300px) minmax(400px, 650px) 1em; 
     grid-template-areas:
       "header header header header"
-      "nav    main   side   side"
+      "nav    main   main   side"
       "footer footer footer footer";
   }
   @media only screen and (min-width: 2400px) {
@@ -39,7 +39,7 @@ body{
       grid-template-columns: 6em minmax(800px, 1300px) minmax(800px, 1300px) minmax(600px, 1300px) 1em;
       grid-template-areas: 
       "header header header header header"
-      "nav    main   main   side   side "
+      "nav    main   main   main   side "
       "footer footer footer footer footer";
     }
   }
