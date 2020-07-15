@@ -49,6 +49,12 @@ body{
   color: white;
   padding: 10px;
 }
+.nestedGridContent {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  border: 3px solid white;
+}
 .item:nth-child(even) {
   background: solid red;
 }

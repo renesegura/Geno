@@ -50,7 +50,7 @@ body{
   padding: 10px;
   justify-content: center;
 }
-.nestedGridContent {
+#nestedGridContent {
   display: grid;
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
@@ -98,13 +98,11 @@ body{
   border: 2px solid #ffcc5c;
   display: flex;
   flex-direction: column;
- 
 }
-/* #navGrid > div {
-  flex: 1;
-} */
-/* .home {
-  color: solid black;
-} */
+
+#one {
+  background-image: url('images/tower01.jpg');
+  background-size: contain;
+}
 
 
