@@ -1,25 +1,20 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-body{
+body {
   background: #FBFBFB;
 }
-.container{
+.container {
   width: 85%;
   min-height: 100vh;
   margin:0 auto;
   display: grid;
   grid-template-columns: 6em minmax(600px, 800px) 1em;
-  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
-
   column-gap: 1px;
   row-gap: 1px;
-  /* grid-gap: 20px; */
   grid-template-rows: 50px 700px 50px;
-  /* grid-auto-rows: 300px; */
   grid-template-areas:
       "header header header"
       "nav    main   side"
@@ -64,7 +59,6 @@ grid-gap: 5px;
 height: 100%;
 padding: 5px;
 background-color: #bbe1fa;
-
 }
 #sidebarOne {
 border: 3px solid black;
@@ -74,7 +68,6 @@ padding: 5px;
 background-image: url('images/self01.jpg');
 background-size: cover;
 }
-
 #contentOne {
   background-image: url('images/busy01.jpg');
   background-size: cover;
@@ -100,13 +93,11 @@ background-size: cover;
 }
 .header {
   grid-area: header;
-
 }
 .pageTitle {
   display: flex;
   justify-content: left;
 }
-
 .content {
 grid-area: main;
 height: 100%;
