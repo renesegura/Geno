@@ -55,7 +55,40 @@ body{
   height: 100%;
   grid-template-rows: 50% 50%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  border: 3px solid red;
+  grid-gap: 5px;
+  /* border: 3px solid red; */
+}
+#contentOne {
+  background-image: url('images/Sketch002.jpg');
+  background-size: cover;
+}
+#contentTwo {
+  background-image: url('images/building02.jpg');
+  background-size: cover;
+}
+#contentThree {
+  background-image: url('images/building01.jpg');
+  background-size: cover;
+}
+#contentFour {
+  background-image: url('images/building04.jpg');
+  background-size: cover;
+}
+#contentFive {
+  background-image: url('images/bart01.jpg');
+  background-size: cover;
+}
+#contentSix {
+  background-image: url('images/above01.jpg');
+  background-size: cover;
+}
+#contentSeven {
+  background-image: url('images/terminal01.jpg');
+  background-size: cover;
+}
+#contentEight {
+  background-image: url('images/walking01.jpg');
+  background-size: cover;
 }
 /* .photoBox {
   width: 1fr;
