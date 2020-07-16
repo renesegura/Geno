@@ -121,3 +121,12 @@ height: 100%;
 .nav {
   grid-area: nav;
 }
+.bottom-container {
+  display: grid;
+  justify-content: center;
+}
+.middle-container {
+  display: grid;
+  justify-content: left;
+ 
+}
