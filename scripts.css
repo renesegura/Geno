@@ -27,7 +27,7 @@ body{
 }
 @media only screen and (min-width: 400px) {
   .container {
-    grid-template-columns: 6em minmax(600px, 800px) minmax(801px, 1200px) 1em; 
+    grid-template-columns: 6em minmax(600px, 800px) minmax(801px, 1200px) 2em; 
     grid-template-areas:
       "header header header header"
       "nav    main   main   side"
@@ -45,8 +45,8 @@ body{
   }
 }
 .item {
-  background: #58d5f6;
-  color: black;
+  background: #3282b8;
+  color: #ffe8df;
   padding: 10px;
   justify-content: left;
 }
@@ -90,17 +90,6 @@ body{
   background-image: url('images/walking01.jpg');
   background-size: cover;
 }
-/* .photoBox {
-  width: 1fr;
-  height: 699px;
-  border: 1px solid red;
-  /* background: #F9FA4D */
-/* } */ 
-
-
-/* .item:nth-child(even) {
-  background: solid red;
-} */
 
 .header {
   grid-area: header;
@@ -124,21 +113,5 @@ body{
 .nav {
   grid-area: nav;
 }
-/* #nestedGrid {
-  display: grid;
-  grid-template-rows: 1fr;
-  border:3px solid white;
-} */
-
-/* #navGrid {
-  border: 2px solid #ffcc5c;
-  display: flex;
-  flex-direction: column;
-} */
-
-/* #one {
-  background-image: url('images/tower01.jpg');
-  background-size: contain;
-} */
 
 

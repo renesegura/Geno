@@ -45,8 +45,8 @@ body{
   }
 }
 .item {
-  background: #58d5f6;
-  color: black;
+  background: #3282b8;
+  color: #ffe8df;
   padding: 10px;
   justify-content: left;
 }
@@ -56,7 +56,6 @@ height: 100%;
 grid-template-rows: 50% 50%;
 grid-template-columns: 1fr 1fr;
 grid-gap: 5px;
-/* border: 3px solid red; */
 }
 #nestedGrid {
 display: grid;
@@ -64,8 +63,8 @@ grid-template-rows: 50% 50%;
 grid-gap: 5px;
 height: 100%;
 padding: 5px;
+background-color: #bbe1fa;
 
-  /* border: 3px solid red; */
 }
 #sidebarOne {
 border: 3px solid black;

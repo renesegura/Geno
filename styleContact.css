@@ -45,8 +45,8 @@ body{
   }
 }
 .item {
-  background: #58d5f6;
-  color: black;
+  background: #3282b8;
+  color: #ffe8df;
   padding: 10px;
   justify-content: left;
 }
@@ -64,6 +64,7 @@ grid-template-rows: 50% 50%;
 grid-gap: 5px;
 height: 100%;
 padding: 5px;
+background: #bbe1fa;
 
   /* border: 3px solid red; */
 }
